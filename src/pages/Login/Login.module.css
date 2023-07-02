@@ -1,5 +1,5 @@
 .Login{
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url('../../assets/login.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url('/assets/login.jpg');
     height: calc(100vh - 60px);
     background-size: cover;
     background-position: 100% 80%;
