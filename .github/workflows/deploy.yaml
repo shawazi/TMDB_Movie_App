@@ -28,6 +28,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: Super Linter
+        uses: github/super-linter@v3
+        env:
+          VALIDATE_TERRAFORM: false
       - name: Checkout
         uses: actions/checkout@v3
       - name: Set up Node
