@@ -1,3 +1,5 @@
+movies.shawaz.org
+
 ## React Movie App
 This is a React-based movie app that allows users to browse and explore movies. It provides features such as user authentication, movie listing, and movie details.
 
