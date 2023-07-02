@@ -1,6 +1,6 @@
 {
   "name": "movies",
-  "homepage": "https://shawazi.github.io/TMDB_Movie_App/",
+  "homepage": "https://movies.shawaz.org",
   "private": true,
   "version": "0.0.0",
   "type": "module",
