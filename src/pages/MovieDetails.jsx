@@ -9,8 +9,8 @@ const MovieDetails = () => {
 
   const { id } = useParams();
   const baseUrl = "https://api.themoviedb.org/3";
-  const movieUrl = `${baseUrl}/movie/${id}?api_key=${process.env.REACT_APP_MOVIE_API_KEY}`;
-  const videoUrl = `${baseUrl}/movie/${id}/videos?api_key=${process.env.REACT_APP_MOVIE_API_KEY}`;
+  const movieUrl = `${baseUrl}/movie/${id}?api_key=${import.meta.env.VITE_MOVIE_API_KEY}`;
+  const videoUrl = `${baseUrl}/movie/${id}/videos?api_key=${import.meta.env.VITE_MOVIE_API_KEY}`;
   const imgUrl = "https://image.tmdb.org/t/p/w1280";
 
   useEffect(
