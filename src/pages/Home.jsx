@@ -7,8 +7,8 @@ const Home = () => {
 
 
   return (
-    <div className='page d-flex justify-content-center flex-wrap' style={{backgroundColor:'#555'}}>
-    {movies.map(movie=> <MovieCard key={movie.id} movie={movie}/>)}
+    <div className='page d-flex justify-content-center flex-wrap' style={{backgroundColor:'#063a7d'}}>
+      {movies.map(movie=> <MovieCard key={movie.id} movie={movie}/>)}
     </div>
   )
 }

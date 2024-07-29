@@ -42,7 +42,7 @@ const Navbar = () => {
       style={{ backgroundColor: "#070707" }}
     >
       <div className="container-fluid">
-        <Link to="/" className="navbar-brand">
+        <Link to="https://movies.shawaz.org" className="navbar-brand">
           <h4 className="text-white"> Shawaz's TMDB Movie App </h4>
         </Link>
 
@@ -53,7 +53,7 @@ const Navbar = () => {
                 <input
                   type="search"
                   className="form-control me-2"
-                  placeholder="Search"
+                  placeholder="Enter a title"
                   value={search}
                   onChange={(e)=> setSearch(e.target.value)}
                 />
